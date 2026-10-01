@@ -1,0 +1,31 @@
+{
+  "manifest": "manifest.csv",
+  "stoichiometry": "stoichiometry_long.csv",
+  "reaction_metadata": "reaction_metadata.csv",
+  "transport_map": "transport_map.csv",
+
+  "score_mode": "penalty",
+  "upstream_model": "A",
+
+  "graph_k": 6,
+  "d_max": null,
+
+  "smooth_lambda": 0.35,
+  "tau_sm": null,
+
+  "cvae_latent_dim": 16,
+  "cvae_hidden_dim": 128,
+  "cvae_beta_kl": 0.001,
+  "cvae_epochs": 1200,
+  "cvae_lr": 0.001,
+
+  "scale_q_low": 0.01,
+  "scale_q_high": 0.99,
+
+  "svi_steps": 4000,
+  "svi_lr": 0.01,
+  "posterior_draws": 500,
+
+  "seed": 20261001,
+  "outdir": "spatial_gsmm_results"
+}
